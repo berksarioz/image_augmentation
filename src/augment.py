@@ -15,8 +15,7 @@ python3 augment.py data/rgb data/normal data/depth --output augmentations_output
 import cv2
 import numpy as np
 import random
-from os import mkdir
-from os import listdir
+from os import mkdir, listdir
 from os.path import isfile, join, isdir
 import sys
  
